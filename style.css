@@ -1,0 +1,94 @@
+body {
+	color: #17202a;
+	background: #f4f7f8;
+}
+
+.impact-section {
+	background: #ffffff;
+}
+
+.section-heading {
+	max-width: 700px;
+}
+
+.eyebrow {
+	color: #0071c5;
+	font-size: 0.78rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.impact-card {
+	display: flex;
+	flex-direction: column;
+	border-top: 4px solid #00c7fd;
+	background: #f4f7f8;
+	box-shadow: 0 8px 24px rgba(23, 32, 42, 0.08);
+}
+
+.impact-card h3 {
+	color: #17202a;
+}
+
+.impact-card h3 i {
+	margin-inline-end: 0.5rem;
+	color: #0071c5;
+}
+
+.impact-card p {
+	flex-grow: 1;
+	line-height: 1.7;
+}
+
+.learn-more {
+	align-self: flex-start;
+	color: #005b9a;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.learn-more:hover,
+.learn-more:focus {
+	color: #003f6b;
+	text-decoration: underline;
+}
+
+.newsletter-section {
+	background: #e5f5f8;
+}
+
+.newsletter-panel {
+	border-inline-start: 5px solid #00c7fd;
+	background: #ffffff;
+	box-shadow: 0 8px 24px rgba(23, 32, 42, 0.08);
+}
+
+.newsletter-panel .form-control:focus {
+	border-color: #0071c5;
+	box-shadow: 0 0 0 0.25rem rgba(0, 113, 197, 0.2);
+}
+
+.btn-primary {
+	--bs-btn-bg: #0071c5;
+	--bs-btn-border-color: #0071c5;
+	--bs-btn-hover-bg: #005b9a;
+	--bs-btn-hover-border-color: #005b9a;
+}
+
+.site-footer {
+	color: #d8e7ed;
+	background: #17202a;
+	font-size: 0.9rem;
+}
+
+.footer-links a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+	color: #00c7fd;
+	text-decoration: underline;
+}
